@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body {
+  margin: 0;
+  background-color: rgb(228, 245, 243);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+#result{
+  background-color:rgba(39, 133, 150, 0.8);
+  padding: 4px 0;
+}
+#coin-details{
+  display: flex;
+  background-color: rgb(187, 243, 243);
+  margin-top: -18px;
+}
+#header_home{
+  text-decoration: none;
+  color: black;
+}
+#right div a{
+  text-decoration: none;
+}
+#right{
+  line-height: 150%;
+  margin: auto;
+}
+#left div {
+  border: 2px solid black;
+  padding: 5px;
+}
+#searchBox{
+  align-self: start;
+}
+input{
+  padding: 7px 20px;
+  width: 400px;
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+button{
+  cursor: pointer;
+  font-family: 'Ubuntu';
+  border: none;
+  color: white;
+  background-color:rgb(43, 204, 134);
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+button:focus{
+  border-radius: 3;
+  border: 2px solid rgb(53, 99, 141);
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
